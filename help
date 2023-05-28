@@ -1,8 +1,5 @@
 #!/bin/bash
 read var 
-
-chmod u+x ${var}
-
 git add .
-git commit -m 'task 0x03-shell'
+git commit -m ${var}
 git push
